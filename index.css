@@ -14,12 +14,14 @@
 
 
   .article1 {
-    width:1500px;
+    width: fit-content;
+    block-size: fit-content;    
     word-wrap: break-word;
   }
 
   .article1 p {
     word-wrap: break-word;
+    padding-left: 50px;
   }
 
   .article2 {
@@ -59,7 +61,7 @@
   height: 69px;
   display: block;
   padding: 10px;
-  margin-right: 690px;
+  margin-right: auto;
   margin-left: auto;}
 
   /* Style the footer */
