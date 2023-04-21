@@ -11,6 +11,22 @@
   
   h2 {
     text-align: center;
+    padding-top: 15px;
+  }
+
+  #checkout {
+    width: 1500px;
+    display: flex;
+    position: relative;
+    color: black;
+    align-items: center;
+    margin: auto;
+  }
+
+  p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
   }
 
   .col-25 {
@@ -34,10 +50,7 @@
     padding: 0 16px;
 
   }
-  
-  #checkout {
-    margin-top: 10px;
-  }
+
 
   .container {
     background-color: #f2f2f2;
