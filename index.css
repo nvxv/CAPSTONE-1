@@ -13,22 +13,20 @@
   }
 
   table {
-    max-width: 2000px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .article1 {
-    width: fit-content;
-    align-content: flex-start;
-    block-size: fit-content;    
-    word-wrap: break-word;
+  #article0 {
+    vertical-align: middle;
   }
 
-  
-  .article1 p {
-    word-wrap: break-word;
-    padding-left: 50px;
+  .article1 {
+    width:1500px;
+    ;
+    text-align: center;
+    align-items: center;
   }
 
   .article2 {
@@ -36,8 +34,9 @@
     width: 1500px;
   }
 
-  h3 {
+  h3, h2, h4, h1 {
     text-align: center;
+    padding-top: 15px
   }
 
   /* Create two columns/boxes that floats next to each other */
@@ -58,11 +57,16 @@
 
   article {
     float: center;
-    margin: 20px;
+    margin: 30px;
     width: 100%;
     background-color: #f1f1f1;
   }
   
+  .funny a {
+    text-decoration: none;
+    color: black;
+  }
+
 #bottlecap0 {
   width: 69px;
   height: 69px;

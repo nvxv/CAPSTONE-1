@@ -11,6 +11,10 @@
     
   }
   
+  h2 {
+    text-align: center;
+  }
+
   .col-25 {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;

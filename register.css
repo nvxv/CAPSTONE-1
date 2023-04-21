@@ -33,6 +33,10 @@ hr {
   margin-bottom: 25px;
 }
 
+.headng {
+  text-align: center;
+}
+
 /* Set a style for the submit/register button */
 .registerbtn {
   background-color: #04AA6D;
