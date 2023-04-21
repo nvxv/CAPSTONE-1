@@ -1,1 +1,274 @@
-INSERT HTML HERE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap Store</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" >
+    <script src="myscripts.js"></script>
+
+
+</head>
+
+
+
+<div id="body5">
+<body class="main-body">
+<header id="header">
+    <img id="capstore" src="images/CAPSTORE2.PNG">
+</header>
+
+<section>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./product.html">Browse</a></li>
+            <li><a href="./checkout.html">Cart</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <a href="./register.html">Register</a></li>
+        </ul>
+      </nav>
+</section>
+<section>
+    <article class="article1">
+    <h1>The Capital of Caps and Stones</h1>
+    <p></p>
+    <h3>Welcome to the Cap Store of Capstone, the capital city of Capland.</h3>
+    <img id="bottlecap0" src="images/bottlecap0.png">
+    <p></p>
+    <h4><i>Here we sell caps of all kinds, for your bottles or your heads.</i></h4>
+    <p></p>
+    <h5> &emsp; Cap Store is one of the earliest equipment makers dating back to the 1880’s, and had a major share of the market up to the 1950's. During the 1940’s war years, caps were manufacturer mostly in Capland. Mitchell & Ness was a distributor of Cap Store caps for a time until around the 1950's. By 1949 or 1950, The Caplite Company acquired Cap Store's capmaking business. Cap Store continued supplying MLB caps made under private label, probably by American Needle, until the late 1950's. Cap supplied flannel wool jerseys into the early 1970's, and made some of the first double knit jerseys to be worn on-field, but was gone from the MLB jersey market by 1973.</h5> 
+    </article>
+</section>
+</body>
+
+
+<main class="capdiv">
+    <h3>The Cap Factory 2023 ©</h3>
+    <div class="capdiv">
+          <img id="center" src="images/cap factory.jpg" style="width:100%">
+    </div>
+</main>
+
+<body>
+<hr>
+<section>
+    <div>
+    <article class="article2">
+    <p>This is a site of which there can be no doubt.</p>
+    <p>A great site for people who are looking to purchase bottle caps.</p>
+    <ul>
+        <li>
+            There are many great caps for the capping.
+        </li>
+        <li>
+            What is life without some caps?
+        </li>
+    </ul>
+    <p>What are some types of Caps?</p>
+    <ol>
+    <li>Baseball Cap.</li>
+    <li>Snapback Cap.</li>
+    <li>5-Panel Cap.</li>
+    </ol>
+    </article>
+    </div>
+</section>
+<hr>
+<section class="video">
+    <h4>Cap Making Video</h4>
+    <iframe
+            width="500"
+            height="315"  
+            id="video"
+            src="https://www.youtube.com/embed/yrRcT9L01yg"
+            frameborder="0"
+            allowfullscreen
+    ></iframe>
+    
+    
+    </section>
+<section>
+    <style>
+        * {box-sizing:border-box}
+    
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 500px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+     </style>
+    <script>
+        let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    } 
+    </script>
+
+     <!-- Slideshow container -->
+     <div class="slideshow-container">
+        <h3>Example Caps</h3>
+    
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="images/caps1.jpg" style="width:100%">
+          <div class="text">Hat Caps</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="images/caps2.jpg" style="width:100%">
+          <div class="text">Hub Caps</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="images/caps3.jpg" style="width:100%">
+          <div class="text">Bottle Caps</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="images/caps4.jpg" style="width:100%">
+            <div class="text">Ice Caps</div>
+        </div>
+        
+        <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="images/caps5.jpg" style="width:100%">
+        <div class="text">Sno Caps</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div> 
+</section>
+<footer>
+    <p>For more information please contact capstone@cap.stone.org</p>
+    <p>Thank you for checking out this awesome new site.</p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+#body5 {
+  width: 100%;
+}
+
+.video {
+  display: block;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+  .main-body {
+    background-color: #f1f1f1;
+  }
+
+
+  .article1 {
+    width:1500px;
+    word-wrap: break-word;
+  }
+
+  .article1 p {
+    word-wrap: break-word;
+  }
+
+  .article2 {
+    font-size: 1.1rem;
+    width: 1500px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  /* Create two columns/boxes that floats next to each other */
+
+    .capdiv {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    }          
+
+    #center {
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  article {
+    float: center;
+    margin: 20px;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+#bottlecap0 {
+  width: 69px;
+  height: 69px;
+  display: block;
+  padding: 10px;
+  margin-right: 690px;
+  margin-left: auto;}
+
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
