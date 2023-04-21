@@ -1,7 +1,6 @@
 #body5 {
   width: 100%;
 }
-
 .video {
   display: block;
   text-align: center;
@@ -48,6 +47,7 @@
     max-width: 500px;
     position: relative;
     margin: auto;
+    padding-bottom: 10px;
     }          
 
     #center {
@@ -56,8 +56,17 @@
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
+    
  
   }
+
+  #imgsec img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
 
   img#center {
     border: 6px solid black;
@@ -83,6 +92,9 @@
   padding: 10px;
   margin-right: auto;
   margin-left: auto;}
+
+
+  
 
   /* Style the footer */
   footer {
